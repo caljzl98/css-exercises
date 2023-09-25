@@ -26,7 +26,23 @@ body {
   margin-bottom: 8px;
 }
 
+.content {
+  padding: 16px 8px;
+}
+
+.title,
+.button-container {
+  padding: 8px;
+}
+
+.button-container {
+  text-align: center;
+}
+
 button {
+  display: block;
+  margin: 0 auto; /* center the button */
+  padding: 8px 24px;
   background: white;
   border: 1px solid #eee;
 }
