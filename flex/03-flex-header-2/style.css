@@ -22,9 +22,11 @@ body {
 }
 
 .left-links,
-.left-links ul {
+.left-links ul,
+.right-links {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
 .profile-image {
