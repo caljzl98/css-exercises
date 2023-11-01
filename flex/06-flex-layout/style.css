@@ -41,6 +41,14 @@ body {
   gap: 16px;
 }
 
+input {
+  margin-bottom: 0;
+}
+
+button {
+  padding: 8px 16px;
+}
+
 .header,
 .footer {
   display: flex;
@@ -56,6 +64,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #666;
 }
 
 ul {
